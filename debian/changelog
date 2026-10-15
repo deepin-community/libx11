@@ -1,8 +1,11 @@
 libx11 (2:1.8.12-1deepin1) unstable; urgency=medium
 
-  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+  * fix(cve): CVE-2026-88806 (high) - xkb: Check the keysym range in
+    _XkbReadKeyActions (CVE-2026-88806)   Upstream:
+    https://gitlab.freedesktop.org/xorg/lib/libx11/-
+    /merge_requests/309.patch
 
- -- tunaichao <tunaichao@uniontech.com>  Mon, 21 Sep 2026 15:40:26 +0800
+ -- deepin-ci-robot <packages@deepin.org>  Tue, 22 Sep 2026 08:10:46 +0800
 
 libx11 (2:1.8.12-1) unstable; urgency=medium
 
