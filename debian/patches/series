@@ -4,3 +4,4 @@
 009_remove_th_Compose.diff
 015_russian_locale_alias.diff
 CVE-2026-88806.patch
+CVE-2026-94284.patch

@@ -1,3 +1,12 @@
+libx11 (2:1.8.12-1deepin2) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-94284 (unknown) - ximcp: bound
+    XIM_REGISTER_TRIGGERKEYS keylist lengths to the packet   Upstream:
+    https://gitlab.freedesktop.org/xorg/lib/libx11/-
+    /commit/924fc91f08ece9cddc93609b4dc945a9cc90ea12
+
+ -- deepin-ci-robot <packages@deepin.org>  Tue, 27 Oct 2026 22:06:22 +0800
+
 libx11 (2:1.8.12-1deepin1) unstable; urgency=medium
 
   * fix(cve): CVE-2026-88806 (high) - xkb: Check the keysym range in
