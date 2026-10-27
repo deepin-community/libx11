@@ -4,6 +4,10 @@ libx11 (2:1.8.12-1deepin2) unstable; urgency=medium
     XIM_REGISTER_TRIGGERKEYS keylist lengths to the packet   Upstream:
     https://gitlab.freedesktop.org/xorg/lib/libx11/-
     /commit/924fc91f08ece9cddc93609b4dc945a9cc90ea12
+  * fix(cve): CVE-2026-94283 (unknown) - ximcp: bound XIM_OPEN_REPLY
+    attribute lengths to the received packet   Upstream:
+    https://gitlab.freedesktop.org/xorg/lib/libx11/-
+    /commit/f263bbca24d04c766775e7af2e203ca41b4ece2e
 
  -- deepin-ci-robot <packages@deepin.org>  Tue, 27 Oct 2026 22:06:22 +0800
 
